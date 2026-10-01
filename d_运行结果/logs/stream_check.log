@@ -1,0 +1,17 @@
+streaming inference check: streamed == offline, per case
+=== caseid 4 ===
+case 4: streamed decisions=676 offline windows=666 shared=666 (only-stream=10 = trailing windows the offline dataset drops by construction, only-offline=0)
+  OK all 67 feature columns identical between streamed and offline
+  score check on 666 windows: max |diff| = 2.955e-08 (tolerance 1e-05) -> OK
+  streaming stats: 676 decisions, median latency 1.71 ms, p95 3.26 ms, buffer 422 samples
+=== caseid 19 ===
+case 19: streamed decisions=890 offline windows=880 shared=880 (only-stream=10 = trailing windows the offline dataset drops by construction, only-offline=0)
+  OK all 67 feature columns identical between streamed and offline
+  score check on 880 windows: max |diff| = 2.973e-08 (tolerance 1e-05) -> OK
+  streaming stats: 890 decisions, median latency 2.16 ms, p95 4.07 ms, buffer 769 samples
+=== caseid 31 ===
+case 31: streamed decisions=336 offline windows=326 shared=326 (only-stream=10 = trailing windows the offline dataset drops by construction, only-offline=0)
+  OK all 67 feature columns identical between streamed and offline
+  score check on 326 windows: max |diff| = 2.966e-08 (tolerance 1e-05) -> OK
+  streaming stats: 336 decisions, median latency 1.25 ms, p95 1.97 ms, buffer 54 samples
+done

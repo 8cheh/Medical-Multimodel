@@ -1,0 +1,223 @@
+{
+  "channels_requested": 41,
+  "channels": [
+    "Primus/CO2",
+    "Primus/ETCO2",
+    "Primus/INCO2",
+    "Primus/RR_CO2",
+    "Primus/FIO2",
+    "Primus/FEO2",
+    "Primus/MV",
+    "Primus/TV",
+    "Primus/COMPLIANCE",
+    "Primus/PEEP_MBAR",
+    "Primus/PPLAT_MBAR",
+    "Primus/PIP_MBAR",
+    "Primus/AWP",
+    "Primus/MAC",
+    "BIS/BIS",
+    "BIS/EMG",
+    "BIS/SEF",
+    "BIS/SQI",
+    "BIS/SR",
+    "BIS/TOTPOW",
+    "Orchestra/NEPI_RATE",
+    "Orchestra/NEPI_VOL",
+    "Orchestra/PHEN_RATE",
+    "Orchestra/PHEN_VOL",
+    "Orchestra/PPF20_CE",
+    "Orchestra/PPF20_CP",
+    "Orchestra/PPF20_CT",
+    "Orchestra/PPF20_RATE",
+    "Orchestra/PPF20_VOL",
+    "Orchestra/RFTN20_CE",
+    "Orchestra/RFTN20_CP",
+    "Orchestra/RFTN20_CT",
+    "Orchestra/RFTN20_RATE",
+    "Orchestra/RFTN20_VOL",
+    "Orchestra/RFTN50_CE",
+    "Orchestra/RFTN50_CP",
+    "Orchestra/RFTN50_CT",
+    "Orchestra/RFTN50_RATE",
+    "Orchestra/RFTN50_VOL",
+    "Orchestra/ROC_RATE",
+    "Orchestra/ROC_VOL"
+  ],
+  "per_channel": {
+    "Primus/CO2": {
+      "files": 2487,
+      "bytes": 11537742626
+    },
+    "Primus/ETCO2": {
+      "files": 2486,
+      "bytes": 49466555
+    },
+    "Primus/INCO2": {
+      "files": 2486,
+      "bytes": 45071923
+    },
+    "Primus/RR_CO2": {
+      "files": 2484,
+      "bytes": 47797893
+    },
+    "Primus/FIO2": {
+      "files": 2486,
+      "bytes": 49625094
+    },
+    "Primus/FEO2": {
+      "files": 2486,
+      "bytes": 49624173
+    },
+    "Primus/MV": {
+      "files": 2482,
+      "bytes": 51540225
+    },
+    "Primus/TV": {
+      "files": 2481,
+      "bytes": 52279617
+    },
+    "Primus/COMPLIANCE": {
+      "files": 2481,
+      "bytes": 55667712
+    },
+    "Primus/PEEP_MBAR": {
+      "files": 2475,
+      "bytes": 42295782
+    },
+    "Primus/PPLAT_MBAR": {
+      "files": 2475,
+      "bytes": 46414521
+    },
+    "Primus/PIP_MBAR": {
+      "files": 2477,
+      "bytes": 46982373
+    },
+    "Primus/AWP": {
+      "files": 2487,
+      "bytes": 11402628002
+    },
+    "Primus/MAC": {
+      "files": 2486,
+      "bytes": 48097479
+    },
+    "BIS/BIS": {
+      "files": 2321,
+      "bytes": 384042562
+    },
+    "BIS/EMG": {
+      "files": 2303,
+      "bytes": 400127515
+    },
+    "BIS/SEF": {
+      "files": 2302,
+      "bytes": 389287073
+    },
+    "BIS/SQI": {
+      "files": 2321,
+      "bytes": 380620707
+    },
+    "BIS/SR": {
+      "files": 2302,
+      "bytes": 286656251
+    },
+    "BIS/TOTPOW": {
+      "files": 2296,
+      "bytes": 388459285
+    },
+    "Orchestra/NEPI_RATE": {
+      "files": 54,
+      "bytes": 12318578
+    },
+    "Orchestra/NEPI_VOL": {
+      "files": 54,
+      "bytes": 14088558
+    },
+    "Orchestra/PHEN_RATE": {
+      "files": 74,
+      "bytes": 20205444
+    },
+    "Orchestra/PHEN_VOL": {
+      "files": 74,
+      "bytes": 24922718
+    },
+    "Orchestra/PPF20_CE": {
+      "files": 1345,
+      "bytes": 719508167
+    },
+    "Orchestra/PPF20_CP": {
+      "files": 1345,
+      "bytes": 714049398
+    },
+    "Orchestra/PPF20_CT": {
+      "files": 1345,
+      "bytes": 524300681
+    },
+    "Orchestra/PPF20_RATE": {
+      "files": 1346,
+      "bytes": 723928496
+    },
+    "Orchestra/PPF20_VOL": {
+      "files": 1346,
+      "bytes": 756714203
+    },
+    "Orchestra/RFTN20_CE": {
+      "files": 2090,
+      "bytes": 1151117266
+    },
+    "Orchestra/RFTN20_CP": {
+      "files": 2089,
+      "bytes": 1137335023
+    },
+    "Orchestra/RFTN20_CT": {
+      "files": 2090,
+      "bytes": 783973116
+    },
+    "Orchestra/RFTN20_RATE": {
+      "files": 2092,
+      "bytes": 1081992947
+    },
+    "Orchestra/RFTN20_VOL": {
+      "files": 2092,
+      "bytes": 1161406950
+    },
+    "Orchestra/RFTN50_CE": {
+      "files": 39,
+      "bytes": 24504844
+    },
+    "Orchestra/RFTN50_CP": {
+      "files": 39,
+      "bytes": 24254142
+    },
+    "Orchestra/RFTN50_CT": {
+      "files": 39,
+      "bytes": 16390598
+    },
+    "Orchestra/RFTN50_RATE": {
+      "files": 39,
+      "bytes": 23468367
+    },
+    "Orchestra/RFTN50_VOL": {
+      "files": 39,
+      "bytes": 24722639
+    },
+    "Orchestra/ROC_RATE": {
+      "files": 70,
+      "bytes": 29214047
+    },
+    "Orchestra/ROC_VOL": {
+      "files": 70,
+      "bytes": 43512911
+    }
+  },
+  "files_on_disk": 66375,
+  "bytes_on_disk": 34766356461,
+  "gb_on_disk": 32.38,
+  "downloader_ok": 66375,
+  "downloader_fail": 1,
+  "downloader_mb": 33155.8,
+  "source": {
+    "dir": "D:\\vitaldb_local\\numeric",
+    "tracks": "D:\\vitaldb_local\\func_tracks.txt",
+    "log": "D:\\vitaldb_local\\logs\\func_dl.log"
+  }
+}

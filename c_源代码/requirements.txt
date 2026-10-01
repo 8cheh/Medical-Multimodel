@@ -1,0 +1,28 @@
+# Runtime dependencies for this project.
+#
+# Versions are the ones actually used for the reported results (Windows analysis host,
+# Python 3.14; the GPU box ran Python 3.12 with the same library versions). Pin loosely
+# on the minor version: the checks compare numbers against artifacts, so a silent
+# library upgrade shows up as a failed check rather than as a wrong conclusion.
+#
+#   pip install -r requirements.txt
+
+# data + analysis
+numpy>=2.4,<3
+pandas>=2.3,<3
+scipy>=1.17,<2
+scikit-learn>=1.9,<2
+pyarrow>=25,<26          # parquet (window datasets, score dumps, channel registry)
+
+# models
+lightgbm>=4.7,<5
+
+# figures + documents
+matplotlib>=3.10,<4
+markdown>=3.10,<4        # report/paper Markdown -> HTML
+pymupdf>=1.28,<2         # PDF verification (tools/verify_pdf.py)
+pypdf>=6.15,<7
+
+# remote execution (only needed when running against the GPU box)
+paramiko>=5.0,<6
+requests>=2.32,<3

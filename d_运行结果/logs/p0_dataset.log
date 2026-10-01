@@ -1,0 +1,42 @@
+windows=1553854 cases=3495 numeric_feats=67 map_only_feats=11
+
+[numeric] rows=1553854 cases=3495 fit=2831 val=314 test=350
+  [main] feats=67 best_iter=172 thr@>= 0.80 sens=0.2434
+  [map_only] feats=11 best_iter=291 thr@>= 0.80 sens=0.2316
+  [rule_map65] rule 65 - map_last60
+  [rule_map65_mean] rule 65 - map_mean60
+  [rule_map65_min] rule 65 - map_min
+  test cases=350 episodes=1392 hours=1304.8
+  main                   auroc=0.9536 acc=0.9275 sens=0.7753 | episodes 1371/1373 (0.999) lead=4.2min alarms/h=2.7 false/h=1.7
+  map_only               auroc=0.9505 acc=0.9249 sens=0.7762 | episodes 1370/1373 (0.998) lead=4.2min alarms/h=2.9 false/h=1.9
+  rule_map65             auroc=0.9022 acc=0.9374 sens=0.6539 | episodes 1371/1373 (0.999) lead=2.5min alarms/h=2.4 false/h=1.3
+  rule_map65_mean        auroc=0.8878 acc=0.9326 sens=0.5835 | episodes 1283/1373 (0.934) lead=1.6min alarms/h=1.5 false/h=0.6
+  rule_map65_min         auroc=0.8572 acc=0.8034 sens=0.8522 | episodes 1372/1373 (0.999) lead=4.6min alarms/h=1.5 false/h=1.1
+
+  --- main-map_only (paired, case-level bootstrap, 500 reps) ---
+    accuracy               +0.0026 [+0.0009,+0.0041] p(<=0)=0.004
+    auroc                  +0.0031 [+0.0019,+0.0044] p(<=0)=0.000
+    auprc                  +0.0055 [+0.0029,+0.0079] p(<=0)=0.000
+    sensitivity            -0.0011 [-0.0067,+0.0044] p(<=0)=0.632
+    specificity            +0.0031 [+0.0010,+0.0053] p(<=0)=0.004
+    McNemar exact p=1.634e-10 (a_right_b_wrong=2203, a_wrong_b_right=1798)
+
+  --- main-rule_map65 (paired, case-level bootstrap, 500 reps) ---
+    accuracy               -0.0100 [-0.0123,-0.0076] p(<=0)=1.000
+    auroc                  +0.0514 [+0.0450,+0.0578] p(<=0)=0.000
+    auprc                  +0.1462 [+0.1312,+0.1639] p(<=0)=0.000
+    sensitivity            +0.1214 [+0.1125,+0.1301] p(<=0)=0.000
+    specificity            -0.0288 [-0.0324,-0.0253] p(<=0)=1.000
+    McNemar exact p=4.238e-75 (a_right_b_wrong=2850, a_wrong_b_right=4407)
+
+  --- map_only-rule_map65 (paired, case-level bootstrap, 500 reps) ---
+    accuracy               -0.0125 [-0.0146,-0.0105] p(<=0)=1.000
+    auroc                  +0.0483 [+0.0421,+0.0544] p(<=0)=0.000
+    auprc                  +0.1407 [+0.1263,+0.1577] p(<=0)=0.000
+    sensitivity            +0.1225 [+0.1125,+0.1312] p(<=0)=0.000
+    specificity            -0.0319 [-0.0357,-0.0286] p(<=0)=1.000
+    McNemar exact p=2.205e-112 (a_right_b_wrong=2850, a_wrong_b_right=4812)
+
+[fused] skipped: (no --ppg given) not found. PPG waveform features live on the GPU box (~125 GB of .npy); the PPG significance question is answered by `significance` mode instead.
+
+wrote D:\vitaldb_local\models\p0\p0_report.json

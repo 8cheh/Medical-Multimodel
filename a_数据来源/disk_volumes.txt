@@ -1,0 +1,25 @@
+=== du -sb of every data directory ===
+/root/autodl-tmp/numeric                 2589983164
+/root/autodl-tmp/ppg_npy                 134841078189
+/root/autodl-tmp/processed               505010378
+/root/autodl-tmp/processed_onset         168196521
+/root/autodl-tmp/vla                     9762141241
+/root/autodl-tmp/models                  16975373
+
+=== human readable ===
+2.5G	/root/autodl-tmp/numeric
+126G	/root/autodl-tmp/ppg_npy
+482M	/root/autodl-tmp/processed
+161M	/root/autodl-tmp/processed_onset
+9.1G	/root/autodl-tmp/vla
+
+=== numeric csv count (8 tracks x cases) ===
+33295
+=== distinct numeric cases ===
+4981
+=== filesystem ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md127      300G  143G  158G  48% /root/autodl-tmp
+
+=== full-dataset reference: number of cases in VitalDB ===
+6388 (documented); local .vital package not downloaded

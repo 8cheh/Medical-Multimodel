@@ -1,0 +1,24 @@
+{
+  "pdf": "report/REPORT.pdf",
+  "pages": 34,
+  "bytes": 3762323,
+  "images": 16,
+  "text_chars": 31817,
+  "cjk_glyphs": 11383,
+  "replacement_chars": 0,
+  "key_numbers": {
+    "checked": 46,
+    "missing": []
+  },
+  "key_phrases": {
+    "checked": 26,
+    "missing": []
+  },
+  "links": {
+    "internal": 16,
+    "external": 0,
+    "broken": 0
+  },
+  "failures": [],
+  "passed": true
+}

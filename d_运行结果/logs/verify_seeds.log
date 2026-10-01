@@ -1,0 +1,65 @@
+######## seed=42 ########
+cases: fit=2831 val=314 test=350
+  accuracy             0.944039240231456
+  balanced_accuracy    0.8151638405722383
+  auroc                0.9536570310093178
+  auprc                0.8428769899850795
+  sensitivity          0.6434053003172004
+  specificity          0.9869223808272761
+  accuracy             0.9440775607699874
+  balanced_accuracy    0.8169402772832071
+  auroc                0.9536570310093178
+  auprc                0.8428769899850795
+  sensitivity          0.6474982093522972
+  specificity          0.9863823452141168
+  majority_baseline_acc 0.8752
+
+######## seed=7 ########
+cases: fit=2831 val=314 test=350
+  accuracy             0.9413455742569666
+  balanced_accuracy    0.8160976280065344
+  auroc                0.9518649108233908
+  auprc                0.8435551653890554
+  sensitivity          0.6464395971456045
+  specificity          0.9857556588674644
+  accuracy             0.9412395922341673
+  balanced_accuracy    0.8181860809616638
+  auroc                0.9518649108233908
+  auprc                0.8435551653890554
+  sensitivity          0.6515005820132598
+  specificity          0.9848715799100678
+  majority_baseline_acc 0.8691
+
+######## seed=2024 ########
+cases: fit=2831 val=314 test=350
+  accuracy             0.9439035340901802
+  balanced_accuracy    0.8286912868724934
+  auroc                0.9602391290475817
+  auprc                0.8661830370492867
+  sensitivity          0.6707270831358423
+  specificity          0.9866554906091446
+  accuracy             0.9439356038740299
+  balanced_accuracy    0.8292695529002548
+  auroc                0.9602391290475817
+  auprc                0.8661830370492867
+  sensitivity          0.6720542231491137
+  specificity          0.986484882651396
+  majority_baseline_acc 0.8647
+
+######## seed=12345 ########
+cases: fit=2831 val=314 test=350
+  accuracy             0.9387872866407433
+  balanced_accuracy    0.8234484327962648
+  auroc                0.9551728976706131
+  auprc                0.8613729049043305
+  sensitivity          0.6614739910722419
+  specificity          0.9854228745202878
+  accuracy             0.9386364679575872
+  balanced_accuracy    0.8180557825915358
+  auroc                0.9551728976706131
+  auprc                0.8613729049043305
+  sensitivity          0.6487200510157602
+  specificity          0.9873915141673114
+  majority_baseline_acc 0.8560
+
+######## SWEEP DONE ########

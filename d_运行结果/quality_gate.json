@@ -1,0 +1,28 @@
+{
+  "variant": "main",
+  "endpoint": "hypotension",
+  "windows": 156574,
+  "usable": 147948,
+  "usable_fraction": 0.9449078391048322,
+  "threshold": 0.5,
+  "persist": 2,
+  "clear_factor": 0.8,
+  "policies": {
+    "ungated": {
+      "alarms_per_h": 1.0538148096107907,
+      "false_per_h": 0.21612783731654034,
+      "n_true": 1093,
+      "n_alarms": 1375,
+      "detect": 1331,
+      "lead_median_s": 47.0
+    },
+    "gated": {
+      "alarms_per_h": 1.007063752602603,
+      "false_per_h": 0.21382860500466228,
+      "n_true": 1035,
+      "n_alarms": 1314,
+      "detect": 1267,
+      "lead_median_s": 48.0
+    }
+  }
+}

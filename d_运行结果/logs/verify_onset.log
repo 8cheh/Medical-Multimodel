@@ -1,0 +1,82 @@
+############ BUILD (onset) ############
+label_mode=onset
+cases to process: 3724 workers=14
+  500/3724 kept=463 {'low_map_coverage': 37}
+  1000/3724 kept=933 {'low_map_coverage': 67}
+  1500/3724 kept=1399 {'low_map_coverage': 101}
+  2000/3724 kept=1871 {'low_map_coverage': 129}
+  2500/3724 kept=2348 {'low_map_coverage': 152}
+  3000/3724 kept=2823 {'low_map_coverage': 177}
+  3500/3724 kept=3285 {'low_map_coverage': 215}
+windows=1553854 cases=3495 cols=70
+positive_rate=0.0830 majority_baseline_acc=0.9170
+per_case_windows_mean=444.6
+dropped={'low_map_coverage': 229}
+wrote /root/autodl-tmp/processed_onset/windows.parquet (160.4 MB)
+
+############ TRAIN (onset) ############
+rows=1553854 cases=3495 features=67
+overall positive_rate=0.0830
+cases: fit=2831 val=314 test=350
+[250]	valid_0's auc: 0.905084
+best_iteration=373
+val-tuned threshold=0.4885 (val acc=0.9284)
+
+=== TEST (threshold 0.50) ===
+  threshold            0.5
+  accuracy             0.9325622389413313
+  balanced_accuracy    0.6321787528242125
+  auroc                0.903651139900418
+  auprc                0.506423910368025
+  sensitivity          0.2760195758564437
+  specificity          0.9883379297919814
+  precision            0.6678507992895204
+  tp                   3384
+  fp                   1683
+  tn                   142631
+  fn                   8876
+  n                    156574
+  positive_rate        0.07830163373229272
+
+=== TEST (val-tuned threshold 0.4885) ===
+  threshold            0.4884825237651564
+  accuracy             0.9323834097615186
+  balanced_accuracy    0.6364853094375209
+  auroc                0.903651139900418
+  auprc                0.506423910368025
+  sensitivity          0.28564437194127246
+  specificity          0.9873262469337695
+  precision            0.656912399174639
+  tp                   3502
+  fp                   1829
+  tn                   142485
+  fn                   8758
+  n                    156574
+  positive_rate        0.07830163373229272
+
+  majority_baseline_acc 0.9217
+
+=== top features (gain) ===
+  map_last60                 765275.8
+  map_gap                    357649.4
+  map_last                   264302.4
+  map_min                    206181.5
+  map_below65_frac           103587.2
+  map_mean60                  99521.2
+  t_min                       68882.7
+  map_std                     66996.8
+  dbp_last                    49996.1
+  sbp_std                     34964.7
+  dbp_mean60                  29821.7
+  dbp_std                     29335.4
+  hr_std                      28527.7
+  hr_mean                     27368.4
+  hr_max                      24313.4
+  sbp_mean                    22912.2
+  hr_min                      22422.8
+  map_max                     22316.6
+  etco2_std                   22221.7
+  dbp_last60                  20961.1
+
+wrote /root/autodl-tmp/models/onset/report.json
+############ ONSET DONE ############

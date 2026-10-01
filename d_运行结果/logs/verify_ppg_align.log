@@ -1,0 +1,13 @@
+=== download progress: 6157 / 6157 cases ===
+
+  case  ppg_bpm  mon_bpm   diff   prom  verdict
+   709     80.0     80.0    0.0   10.8  ALIGNED (Solar8000/PLETH_HR)
+  3716    111.8     94.5   17.3    7.0  MISMATCH (Solar8000/HR)
+  1197     58.0     63.0    5.0   61.0  ALIGNED (Solar8000/PLETH_HR)
+   700    110.4    109.0    1.4   25.1  ALIGNED (Solar8000/PLETH_HR)
+  5727     67.6     68.0    0.4   17.7  ALIGNED (Solar8000/HR)
+  1828     66.2     70.0    3.8   21.0  ALIGNED (Solar8000/PLETH_HR)
+  5331     56.0     56.0    0.0   13.4  ALIGNED (Solar8000/HR)
+  3938     56.4     56.0    0.4   36.4  ALIGNED (Solar8000/HR)
+
+7/8 cases agree within 15 bpm -> timelines aligned

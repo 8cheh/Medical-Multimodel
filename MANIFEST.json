@@ -1,0 +1,668 @@
+{
+  "generated_at": "2026-10-01T08:02:42+00:00",
+  "source_root": "D:\\github\\VitalDB",
+  "note": "every entry is byte-identical to its source; the */README.md files are authored by hand and deliberately absent here",
+  "n_entries": 110,
+  "entries": [
+    {
+      "src": "results/channel_registry.json",
+      "dst": "a_数据来源/channel_registry.json",
+      "bytes": 8423,
+      "sha256": "29d45dada1ffa4b1beb2fd07c5b3a7fee3b2a109e2f11747a085996ad47314d2"
+    },
+    {
+      "src": "results/func_download.json",
+      "dst": "a_数据来源/func_download.json",
+      "bytes": 4718,
+      "sha256": "c6d11d284291fd700efee60479fd2362e1528cc768703051a6db67661bbb2c5f"
+    },
+    {
+      "src": "results/ppg_local_store.md",
+      "dst": "a_数据来源/ppg_local_store.md",
+      "bytes": 2464,
+      "sha256": "38b374166904f9b0b91d936640a28be0b077f1831e0fb5da469b232c359b3f56"
+    },
+    {
+      "src": "results/abp_local_store.md",
+      "dst": "a_数据来源/abp_local_store.md",
+      "bytes": 2607,
+      "sha256": "75cdcd8673b7835df7a22ffc9028e207bceab942540050e2b56e797ab1842e9d"
+    },
+    {
+      "src": "results/ppg_manifest.json",
+      "dst": "a_数据来源/ppg_manifest.json",
+      "bytes": 315,
+      "sha256": "334917cd84ccea1f796b80753abf91ad1011229f0fe0f923d0fd3561ef5b53ed"
+    },
+    {
+      "src": "results/disk_volumes.txt",
+      "dst": "a_数据来源/disk_volumes.txt",
+      "bytes": 855,
+      "sha256": "148ea1fcf5f18a4a2ee64950721bd620314dc4603734199dcf85fd6ad2e4cdec"
+    },
+    {
+      "src": "report/figures/fig16_architecture.png",
+      "dst": "b_算法说明/fig16_architecture.png",
+      "bytes": 239031,
+      "sha256": "4f5b00fb68df1e90153bd5e4589a8c76e2ad786bf2dc0dab12e718ca1be9bd8b"
+    },
+    {
+      "src": "remote/alarm_pareto.py",
+      "dst": "c_源代码/remote/alarm_pareto.py",
+      "bytes": 6419,
+      "sha256": "c8a3c71a4b62cce7fbad6656101e907372fb4c8f3b283f6288a598d18b6fcce2"
+    },
+    {
+      "src": "remote/alarm_policy.py",
+      "dst": "c_源代码/remote/alarm_policy.py",
+      "bytes": 8345,
+      "sha256": "e04acc6d22b4bb3e77df1427b752d539b206effa7cf1387b52f0ada38b088220"
+    },
+    {
+      "src": "remote/build_abp_features.py",
+      "dst": "c_源代码/remote/build_abp_features.py",
+      "bytes": 8543,
+      "sha256": "621cea33263860a59817ff2a32440e58ea2c6b3bfbe4c34912bd39891a2d2d61"
+    },
+    {
+      "src": "remote/build_dataset.py",
+      "dst": "c_源代码/remote/build_dataset.py",
+      "bytes": 19985,
+      "sha256": "c1edd317f89367e6ec5e68f7181ebaa57668abea42b278f29af463f03db9e6b7"
+    },
+    {
+      "src": "remote/build_ppg_features.py",
+      "dst": "c_源代码/remote/build_ppg_features.py",
+      "bytes": 9796,
+      "sha256": "90b5ebe02f10cf1d4de4be7b3d42b2c1992b29feb0cb83fe52026b0e310a7ec5"
+    },
+    {
+      "src": "remote/calibration_dca.py",
+      "dst": "c_源代码/remote/calibration_dca.py",
+      "bytes": 4952,
+      "sha256": "4d8df096c914e49ddb996879a6929319ad814575ca3bdc33f0d5e8f5a319d37b"
+    },
+    {
+      "src": "remote/check_abp_features.py",
+      "dst": "c_源代码/remote/check_abp_features.py",
+      "bytes": 3018,
+      "sha256": "d5feee041c63a472321e42a169b9d8f0cd04f42da955289c3f0badf1239a233d"
+    },
+    {
+      "src": "remote/check_build_refactor.py",
+      "dst": "c_源代码/remote/check_build_refactor.py",
+      "bytes": 3021,
+      "sha256": "e145be5daec3403ecd63358d249027693c4ac22f9586b41f1a82faac8531e310"
+    },
+    {
+      "src": "remote/check_extra_merge.py",
+      "dst": "c_源代码/remote/check_extra_merge.py",
+      "bytes": 2502,
+      "sha256": "dc2c1ecf7fa1545aca95b9f9ac72164595eab7668f4625ae716aead47e3f055d"
+    },
+    {
+      "src": "remote/check_p0_eval.py",
+      "dst": "c_源代码/remote/check_p0_eval.py",
+      "bytes": 4759,
+      "sha256": "77125ef95f1e23df180c963d6204cb2a147df5de82f7f40855975060ff54449e"
+    },
+    {
+      "src": "remote/dl_ppg.py",
+      "dst": "c_源代码/remote/dl_ppg.py",
+      "bytes": 8669,
+      "sha256": "73918c17182fab69b630451d6a47c676d3f2bcdb35c64e7982a8f7688568f61d"
+    },
+    {
+      "src": "remote/dl_tracks.py",
+      "dst": "c_源代码/remote/dl_tracks.py",
+      "bytes": 5907,
+      "sha256": "3fed82563a43e37faad149e9ebdcf5a2812dc6102467517020bd5a4ccc8c3830"
+    },
+    {
+      "src": "remote/dl_vital.py",
+      "dst": "c_源代码/remote/dl_vital.py",
+      "bytes": 4228,
+      "sha256": "e7915949d058bb30039572203ff7ecbb0f3724ccfcd25916c285b398b3f3b797"
+    },
+    {
+      "src": "remote/dump_scores.py",
+      "dst": "c_源代码/remote/dump_scores.py",
+      "bytes": 8981,
+      "sha256": "7e8fecea5ad6131df1317334a2dfbdc5881219c87d7da0c68d5b0f640ca71aaa"
+    },
+    {
+      "src": "remote/make_monitor_display.py",
+      "dst": "c_源代码/remote/make_monitor_display.py",
+      "bytes": 7248,
+      "sha256": "243a0809b84f60c4568a506f476b9d8a0b874c45331780222606c97357887ee7"
+    },
+    {
+      "src": "remote/operating_points.py",
+      "dst": "c_源代码/remote/operating_points.py",
+      "bytes": 8013,
+      "sha256": "d3b99115aff8ee84f7deefdd2062383a4305a18d950c91f6b48aedb2e78f081d"
+    },
+    {
+      "src": "remote/p0_eval.py",
+      "dst": "c_源代码/remote/p0_eval.py",
+      "bytes": 39235,
+      "sha256": "79e34c5e340a6489d70b4078ac2d3efba89055e83eeda3f9d7c1877e9df44f49"
+    },
+    {
+      "src": "remote/quality_gate.py",
+      "dst": "c_源代码/remote/quality_gate.py",
+      "bytes": 5611,
+      "sha256": "c3cd97abdb38505479171ffd057789c923faddaf84d6060e4c5eaa8d54edd953"
+    },
+    {
+      "src": "remote/redefine_eval.py",
+      "dst": "c_源代码/remote/redefine_eval.py",
+      "bytes": 8428,
+      "sha256": "8ae4526d17309e204d4201daa47b98e37a8685c0adcad46349924485a6d1a550"
+    },
+    {
+      "src": "remote/stream_monitor.py",
+      "dst": "c_源代码/remote/stream_monitor.py",
+      "bytes": 14082,
+      "sha256": "bd89290449f4525ec5edf1afdac88b838ade20576107fed842fa267d6966dc63"
+    },
+    {
+      "src": "remote/train_fused.py",
+      "dst": "c_源代码/remote/train_fused.py",
+      "bytes": 6770,
+      "sha256": "e3aa624b9f3b5f49b3066e3d23d40c93709aa75a5104cc70235677e7a9b68b32"
+    },
+    {
+      "src": "remote/train_model.py",
+      "dst": "c_源代码/remote/train_model.py",
+      "bytes": 6949,
+      "sha256": "202b892f64b3350bdcbb2a31d013800112d0989996ba78e98b85490eac8836ad"
+    },
+    {
+      "src": "tools/build_algorithm_delivery.py",
+      "dst": "c_源代码/tools/build_algorithm_delivery.py",
+      "bytes": 9679,
+      "sha256": "95f3c1a621d5045ddbcd1611ddcad0f06888d6cb79dc2581df08af0275d12c84"
+    },
+    {
+      "src": "tools/build_channel_registry.py",
+      "dst": "c_源代码/tools/build_channel_registry.py",
+      "bytes": 5641,
+      "sha256": "3661cafaf08aed0fa63e120aedd4418a960754ebbfc730e020f025a5599a5e08"
+    },
+    {
+      "src": "tools/build_latex_midterm.py",
+      "dst": "c_源代码/tools/build_latex_midterm.py",
+      "bytes": 7089,
+      "sha256": "0271ac8946336cbe5f03fb01327f430aa0610b81a15ab60769bb764a9b926e6f"
+    },
+    {
+      "src": "tools/capture.py",
+      "dst": "c_源代码/tools/capture.py",
+      "bytes": 1842,
+      "sha256": "a5cc7dbef0e8f97dcacb2b6cda6debd126442210d55abc2c55edf77c144941a4"
+    },
+    {
+      "src": "tools/check_algorithm_delivery.py",
+      "dst": "c_源代码/tools/check_algorithm_delivery.py",
+      "bytes": 6396,
+      "sha256": "0373adff0f5ae8860bf9bb7168d64be60689d190834f49bc1d8e3b986fb2886f"
+    },
+    {
+      "src": "tools/check_all.py",
+      "dst": "c_源代码/tools/check_all.py",
+      "bytes": 7636,
+      "sha256": "1c6a476738e9a96c5cdfe2205c471cc56f1446435758162a6a564135aee19854"
+    },
+    {
+      "src": "tools/check_freshness.py",
+      "dst": "c_源代码/tools/check_freshness.py",
+      "bytes": 4279,
+      "sha256": "648a6e946adcc60624ddb6f58ed130b7ea18b3144382a2658251bc6b89287c28"
+    },
+    {
+      "src": "tools/check_report_numbers.py",
+      "dst": "c_源代码/tools/check_report_numbers.py",
+      "bytes": 26031,
+      "sha256": "fd6e56b13f588fe287c010070c23d3a443da388963d4c07a55e2c1e718e731de"
+    },
+    {
+      "src": "tools/final_audit.py",
+      "dst": "c_源代码/tools/final_audit.py",
+      "bytes": 14344,
+      "sha256": "7a2c4430a7699dd23ac452e9d2ec7c808dc55860ce303a8843d6d4e71e4c8af4"
+    },
+    {
+      "src": "tools/make_figures.py",
+      "dst": "c_源代码/tools/make_figures.py",
+      "bytes": 59529,
+      "sha256": "e9ac1aedbc2498b5ad29d201464fcd5231699ec675191864217175d2aeca8201"
+    },
+    {
+      "src": "tools/make_pdf.py",
+      "dst": "c_源代码/tools/make_pdf.py",
+      "bytes": 7291,
+      "sha256": "46edd8f519a9bf9f17f08f99a264bbc499c582a22ebafbf7676e559c4ee671c4"
+    },
+    {
+      "src": "tools/make_slides_pdf.py",
+      "dst": "c_源代码/tools/make_slides_pdf.py",
+      "bytes": 6156,
+      "sha256": "69bb04e83168712d51882ea1d1c575eeac150162d0f2325834815cd354eb3153"
+    },
+    {
+      "src": "tools/normalize_report_headings.py",
+      "dst": "c_源代码/tools/normalize_report_headings.py",
+      "bytes": 3613,
+      "sha256": "3094019019c83bea8048affdcccbbd86ae84d61c2b5a71c1471335abc8f7a531"
+    },
+    {
+      "src": "tools/pick_functional_channels.py",
+      "dst": "c_源代码/tools/pick_functional_channels.py",
+      "bytes": 4060,
+      "sha256": "76abc0147327c15a688774187ed122b2bf5b79485f2d4f8d5adccdf3f2c4a4d8"
+    },
+    {
+      "src": "tools/ppg_signal_check.py",
+      "dst": "c_源代码/tools/ppg_signal_check.py",
+      "bytes": 6162,
+      "sha256": "34f3fd76957683fc02c3caeaec6176434d25145b40fc68a3a1a7c770bb625792"
+    },
+    {
+      "src": "tools/record_downloads.py",
+      "dst": "c_源代码/tools/record_downloads.py",
+      "bytes": 3804,
+      "sha256": "e9de0e145db6328717cd81debd81e5aaed03415afb1cc384dc96af98880bc525"
+    },
+    {
+      "src": "tools/remote.py",
+      "dst": "c_源代码/tools/remote.py",
+      "bytes": 5360,
+      "sha256": "0392b408087093cc7d7469659076bc3aaaa8d947f2a96828b86e830488cb27bc"
+    },
+    {
+      "src": "tools/verify_pdf.py",
+      "dst": "c_源代码/tools/verify_pdf.py",
+      "bytes": 7940,
+      "sha256": "9d4cac1c9c782a11581d53fe2a53373557ef4ce985f8777ca3ea6f53a6e5aad7"
+    },
+    {
+      "src": "tools/verify_ppg.py",
+      "dst": "c_源代码/tools/verify_ppg.py",
+      "bytes": 3595,
+      "sha256": "720250d49f9188ec605a5065b73f42e5355fb233c56f5a6142be05b181ba128e"
+    },
+    {
+      "src": "tools/verify_ppg_align.py",
+      "dst": "c_源代码/tools/verify_ppg_align.py",
+      "bytes": 4171,
+      "sha256": "6fe7a50a07e7aa7d368865e87dc12b0c93dcfb45c84ca98c0cb9a1a4c98f8436"
+    },
+    {
+      "src": "requirements.txt",
+      "dst": "c_源代码/requirements.txt",
+      "bytes": 896,
+      "sha256": "920c9a40b4f80ffd1d9228e1170f0661054a0a92495ef91ec3ad1f11662c6de5"
+    },
+    {
+      "src": "tools/make_slides.js",
+      "dst": "c_源代码/tools/make_slides.js",
+      "bytes": 49352,
+      "sha256": "ba8d8c88e24df35cb8e2eec975e04089094c95a6d0c5cda62cf6f9055522b46e"
+    },
+    {
+      "src": "results/p0_report.json",
+      "dst": "d_运行结果/p0_report.json",
+      "bytes": 22346,
+      "sha256": "1fa3deacc44d26e943441bf1d99a4147802e60b2fafdd15f93cbcedb4f0e075e"
+    },
+    {
+      "src": "results/p0_report_h600.json",
+      "dst": "d_运行结果/p0_report_h600.json",
+      "bytes": 19365,
+      "sha256": "849417fad021856f4461ad372347dfb94acc73137fb9900c4defd19b23908ab1"
+    },
+    {
+      "src": "results/p0_report_h900.json",
+      "dst": "d_运行结果/p0_report_h900.json",
+      "bytes": 19379,
+      "sha256": "07a49a0b9356fb3b26369f2efa9e9bb5dc6bc985353ba237fd6a44fce26f630f"
+    },
+    {
+      "src": "results/p0_report_h900opt.json",
+      "dst": "d_运行结果/p0_report_h900opt.json",
+      "bytes": 36210,
+      "sha256": "5e2f7f7175fefa52d93d7a3dea777b28bd1e22ae72d74114c2822396e03f2d0b"
+    },
+    {
+      "src": "results/p0_report_hypoxemia.json",
+      "dst": "d_运行结果/p0_report_hypoxemia.json",
+      "bytes": 19437,
+      "sha256": "1c0f5460aecba253fd708ba621b481e43f287547af59640efe216d04eafde76c"
+    },
+    {
+      "src": "results/p0_report_bradycardia.json",
+      "dst": "d_运行结果/p0_report_bradycardia.json",
+      "bytes": 19480,
+      "sha256": "96ec9444d3787508d5279d888c1267ed0c3b58512991a14c78f02a79d2256365"
+    },
+    {
+      "src": "results/p0_report_hypoventilation.json",
+      "dst": "d_运行结果/p0_report_hypoventilation.json",
+      "bytes": 35275,
+      "sha256": "929b8b53cb811e5ba3cbee6b2ba160d037fd50dd55b00e61e78c315495320ae7"
+    },
+    {
+      "src": "results/p0_report_hypercapnia.json",
+      "dst": "d_运行结果/p0_report_hypercapnia.json",
+      "bytes": 34954,
+      "sha256": "f9005b9c759bd220b7658a2d98e8646e63b3120fbb63b23ef3b82620fdc44017"
+    },
+    {
+      "src": "results/p0_report_multimodal_h300.json",
+      "dst": "d_运行结果/p0_report_multimodal_h300.json",
+      "bytes": 38013,
+      "sha256": "dd21e54856690c6de5522b24dd4c855fcc608ac20419104e5c0a53fb07aaa996"
+    },
+    {
+      "src": "results/p0_report_multimodal_h900.json",
+      "dst": "d_运行结果/p0_report_multimodal_h900.json",
+      "bytes": 37968,
+      "sha256": "5a45e21a023d0784170b61dd82148d92028b0db4f8e6a0de595a67f320ffd4d3"
+    },
+    {
+      "src": "results/p0_report_hypoxemia_mm.json",
+      "dst": "d_运行结果/p0_report_hypoxemia_mm.json",
+      "bytes": 38264,
+      "sha256": "02d59f81dd32780c7235eb5b5e39a08b2ba80ebc61ab5814178187b6deb9a9a6"
+    },
+    {
+      "src": "results/p0_report_ppg_h300.json",
+      "dst": "d_运行结果/p0_report_ppg_h300.json",
+      "bytes": 24214,
+      "sha256": "a40bc83c642841b54da29171b6f58055947dea655474c87911d13a7f16e9ede2"
+    },
+    {
+      "src": "results/p0_report_ppg_h600.json",
+      "dst": "d_运行结果/p0_report_ppg_h600.json",
+      "bytes": 24412,
+      "sha256": "a3253e14893cdf429ec060b1bbfad7f9f16f1d57388db121c57edb4024021b7e"
+    },
+    {
+      "src": "results/p0_report_ppg_h900.json",
+      "dst": "d_运行结果/p0_report_ppg_h900.json",
+      "bytes": 24431,
+      "sha256": "16763f2b67e2078f0f0e0cc4a6f60363e409aef16b63e94364f71ed7cd4eedbe"
+    },
+    {
+      "src": "results/alarm_pareto.json",
+      "dst": "d_运行结果/alarm_pareto.json",
+      "bytes": 2035,
+      "sha256": "94d0b9fcaad2e99459c764120497e9dab70e70bbaf31825c3c3de96a7ce3a29f"
+    },
+    {
+      "src": "results/calibration_hypotension.json",
+      "dst": "d_运行结果/calibration_hypotension.json",
+      "bytes": 1082,
+      "sha256": "3e7470db8773decd0d733b27ed5aaaba3a5e6c683dbe924f9af00a447027062e"
+    },
+    {
+      "src": "results/calibration_hypoxemia.json",
+      "dst": "d_运行结果/calibration_hypoxemia.json",
+      "bytes": 1092,
+      "sha256": "2cd36893edbb3d2b714b133510640d9829944177d375bcc4ff0880bc6563e676"
+    },
+    {
+      "src": "results/operating_points.json",
+      "dst": "d_运行结果/operating_points.json",
+      "bytes": 2612,
+      "sha256": "184907be7ce1235a1af1c11bd17b8e7bbf50662d2c2a7b821beaf4b7989fceec"
+    },
+    {
+      "src": "results/quality_gate.json",
+      "dst": "d_运行结果/quality_gate.json",
+      "bytes": 645,
+      "sha256": "40cf47e17b2b725812dcc8404afab504de597f726d79f6d7e3a90362b098b0cf"
+    },
+    {
+      "src": "results/p0_significance.json",
+      "dst": "d_运行结果/p0_significance.json",
+      "bytes": 7051,
+      "sha256": "b5188c00f600de2b7970007c647cf0930c3fb6fe14556429552ff9d66b08a804"
+    },
+    {
+      "src": "results/report_main.json",
+      "dst": "d_运行结果/report_main.json",
+      "bytes": 1243,
+      "sha256": "374c5f1bebb30fbbd473b3f96f0f9eb977304efb51c0edcf75b58a6fa28a4f34"
+    },
+    {
+      "src": "results/report_fused.json",
+      "dst": "d_运行结果/report_fused.json",
+      "bytes": 1382,
+      "sha256": "94f36d55c417b8257d418532532a951da4033ab0cec82935ef863d8dcbd1f40a"
+    },
+    {
+      "src": "results/report_fused_final.json",
+      "dst": "d_运行结果/report_fused_final.json",
+      "bytes": 1393,
+      "sha256": "5de40e94864f04e1cf406d4fc83fcb81d5dccd410f2c3241d14d155c22b6ea4b"
+    },
+    {
+      "src": "results/check_numbers.json",
+      "dst": "d_运行结果/check_numbers.json",
+      "bytes": 41,
+      "sha256": "dd7b470960b12384d7aa0f24f974e60945b1af5d631d8c6016219555dc5daef3"
+    },
+    {
+      "src": "results/check_extra_docs.json",
+      "dst": "d_运行结果/check_extra_docs.json",
+      "bytes": 163,
+      "sha256": "07deed1a6f7a305d8589bb5b97be255468964e546ddde08c1ab60cc1adae0369"
+    },
+    {
+      "src": "results/check_all.json",
+      "dst": "d_运行结果/check_all.json",
+      "bytes": 4092,
+      "sha256": "8e414322ea85c8d789e58aa6535354da301baa1cb5886df6418f06ce7bd5a72b"
+    },
+    {
+      "src": "results/verify_pdf.json",
+      "dst": "d_运行结果/verify_pdf.json",
+      "bytes": 411,
+      "sha256": "418e6b1f31f3340af45716aaa37c70a5e07c81ecb706083f02001a9e17bfb0f6"
+    },
+    {
+      "src": "results/verify_pdf_MIDTERM.json",
+      "dst": "d_运行结果/verify_pdf_MIDTERM.json",
+      "bytes": 407,
+      "sha256": "4823f371313fcfdc17041b388da5f8e94cfb2afa01faacb1809adf053fd243c9"
+    },
+    {
+      "src": "results/verify_slides.json",
+      "dst": "d_运行结果/verify_slides.json",
+      "bytes": 365,
+      "sha256": "978b266f942064f64bf42d312ec637f71f5cbaffba0ba9ed125a4276ec8377a5"
+    },
+    {
+      "src": "results/p0_dataset.log",
+      "dst": "d_运行结果/logs/p0_dataset.log",
+      "bytes": 2726,
+      "sha256": "44dbb0fa5a3ec3f13b3fc31222f3fcfefc9806e6d52949978fba2a5f518ddfb2"
+    },
+    {
+      "src": "results/p0_h600.log",
+      "dst": "d_运行结果/logs/p0_h600.log",
+      "bytes": 5618,
+      "sha256": "7bb766aa22458d43db2a07e2d01d98d82dc709abcf556a9018542786cb55c861"
+    },
+    {
+      "src": "results/p0_h900.log",
+      "dst": "d_运行结果/logs/p0_h900.log",
+      "bytes": 5628,
+      "sha256": "7db41c63e0f050e86190b5ab88853dd8bf45643c8c0c1f1a693e0aca7cc5096b"
+    },
+    {
+      "src": "results/p0_h900opt.log",
+      "dst": "d_运行结果/logs/p0_h900opt.log",
+      "bytes": 11012,
+      "sha256": "69d3b92d5c670ef8d8605cab268874eb76f8971fd8344123d8febdf6ae6a9549"
+    },
+    {
+      "src": "results/p0_multimodal_h300.log",
+      "dst": "d_运行结果/logs/p0_multimodal_h300.log",
+      "bytes": 12152,
+      "sha256": "6f0b47a2543fcadb193cc8a0b003e82266188fb2468c67472245e2f770392bf9"
+    },
+    {
+      "src": "results/p0_lead_h300.log",
+      "dst": "d_运行结果/logs/p0_lead_h300.log",
+      "bytes": 6604,
+      "sha256": "90c037d2c01b37dbbc7a0ed05effb8f68073abbaa65899729023e78df1d5dc9b"
+    },
+    {
+      "src": "results/p0_hypoxemia.log",
+      "dst": "d_运行结果/logs/p0_hypoxemia.log",
+      "bytes": 5620,
+      "sha256": "c63000627f0dd37e5d66ac0161fcf38b2118384b2fe22b983a341558fb66dac2"
+    },
+    {
+      "src": "results/p0_hypoxemia_mm.log",
+      "dst": "d_运行结果/logs/p0_hypoxemia_mm.log",
+      "bytes": 12284,
+      "sha256": "8a3298a1c52e1a7c2be13352fb54f75ae7f5d8427d87da2659dfe8dbed46ef95"
+    },
+    {
+      "src": "results/p0_bradycardia.log",
+      "dst": "d_运行结果/logs/p0_bradycardia.log",
+      "bytes": 5634,
+      "sha256": "f81846b138344fcc4d86990740b2890cca33bc4bcd4e70f406f1b31e1894a54c"
+    },
+    {
+      "src": "results/stream_check.log",
+      "dst": "d_运行结果/logs/stream_check.log",
+      "bytes": 1303,
+      "sha256": "a4e83cb962febb433d3ff62d93c68c481a6f29ed737c4f6f6fb8e71342d36608"
+    },
+    {
+      "src": "results/verify_seeds.log",
+      "dst": "d_运行结果/logs/verify_seeds.log",
+      "bytes": 2411,
+      "sha256": "739f99e1b2841c74536add5a9543d7f860667ec6df403092d5808cecd414f4c9"
+    },
+    {
+      "src": "results/verify_onset.log",
+      "dst": "d_运行结果/logs/verify_onset.log",
+      "bytes": 2875,
+      "sha256": "52ec441d8bbe284800f7d95f7997b1b8363bb32402507a8dcfb812ec03660e22"
+    },
+    {
+      "src": "results/verify_ppg_align.log",
+      "dst": "d_运行结果/logs/verify_ppg_align.log",
+      "bytes": 675,
+      "sha256": "88d28e7a61a4c22cdf0ccf597689ec8171ccb484effef364a9aaeca332e3651e"
+    },
+    {
+      "src": "results/run_main.log",
+      "dst": "d_运行结果/logs/run_main.log",
+      "bytes": 3033,
+      "sha256": "5b055622bb70cc088bccd60a2170b107929575d55586f7d7e2f740a4dd2e9734"
+    },
+    {
+      "src": "report/figures/fig01_data_volume.png",
+      "dst": "d_运行结果/figures/fig01_data_volume.png",
+      "bytes": 54941,
+      "sha256": "f270c2a483407f9af4f27f92cf24c34d72b0afbb011f69d25d07bb30339dae2e"
+    },
+    {
+      "src": "report/figures/fig02_ppg_coverage.png",
+      "dst": "d_运行结果/figures/fig02_ppg_coverage.png",
+      "bytes": 100245,
+      "sha256": "3714b2e9c14de6c2187461f8e8c69863e1058671574e3b2508cf1c98e43e94bf"
+    },
+    {
+      "src": "report/figures/fig03_ppg_waveform.png",
+      "dst": "d_运行结果/figures/fig03_ppg_waveform.png",
+      "bytes": 232624,
+      "sha256": "1686476f1b44bc58fe99269fe335955970ae7c8691be225b4a2bc3d8c4999bdf"
+    },
+    {
+      "src": "report/figures/fig04_ppg_align.png",
+      "dst": "d_运行结果/figures/fig04_ppg_align.png",
+      "bytes": 101434,
+      "sha256": "7f8b0546c7a760241ceb5908a0bd40ad8f319f595e4bf22c9d7052d5df68fc3e"
+    },
+    {
+      "src": "report/figures/fig05_seed_robustness.png",
+      "dst": "d_运行结果/figures/fig05_seed_robustness.png",
+      "bytes": 92796,
+      "sha256": "3c1e9bf875d59b2f8f78fef02e0abf4f1053c1a19dea96f5efda4a7a48166bc1"
+    },
+    {
+      "src": "report/figures/fig06_roc_pr.png",
+      "dst": "d_运行结果/figures/fig06_roc_pr.png",
+      "bytes": 110455,
+      "sha256": "2f84e6f749f0262cb45ceab467ab6cacbe2cf27e1dfa1b660aed41d8abb5afa0"
+    },
+    {
+      "src": "report/figures/fig07_operating_points.png",
+      "dst": "d_运行结果/figures/fig07_operating_points.png",
+      "bytes": 120098,
+      "sha256": "21b414c789c9862114cac528dadaa63e2500b22f5ddce786dcfd28ed3d0a7072"
+    },
+    {
+      "src": "report/figures/fig08_feature_gain.png",
+      "dst": "d_运行结果/figures/fig08_feature_gain.png",
+      "bytes": 82063,
+      "sha256": "035cf6be5bba946af023bc804ff827db7a86a2895f2979be19e0e4b50b9cece7"
+    },
+    {
+      "src": "report/figures/fig09_ppg_ablation.png",
+      "dst": "d_运行结果/figures/fig09_ppg_ablation.png",
+      "bytes": 104818,
+      "sha256": "b654d265a9a9c11fb8c265aeb37f2170f48ae048d4fe0cfae63f6086d914baff"
+    },
+    {
+      "src": "report/figures/fig10_vla_training.png",
+      "dst": "d_运行结果/figures/fig10_vla_training.png",
+      "bytes": 165348,
+      "sha256": "596d2aabb4a4f9ec9f4b82577cf05ee5d9f89f84882e39764dc71d599454039c"
+    },
+    {
+      "src": "report/figures/fig11_vla_artifacts.png",
+      "dst": "d_运行结果/figures/fig11_vla_artifacts.png",
+      "bytes": 88653,
+      "sha256": "63c2a9c37d45b87633879584ba084b3c593b75dbe44b012629ab50d70167edf2"
+    },
+    {
+      "src": "report/figures/fig12_p0_baselines.png",
+      "dst": "d_运行结果/figures/fig12_p0_baselines.png",
+      "bytes": 138717,
+      "sha256": "6fbf6b3373a15ed5ab3b7a46f0d94ffed6d0e8800cd292105caa3a1d91cc4fd7"
+    },
+    {
+      "src": "report/figures/fig13_horizon.png",
+      "dst": "d_运行结果/figures/fig13_horizon.png",
+      "bytes": 141620,
+      "sha256": "ca4f62212bfb7ded0ba067ab0967954a6c45069adb610d72a66735dcac845142"
+    },
+    {
+      "src": "report/figures/fig14_optimization.png",
+      "dst": "d_运行结果/figures/fig14_optimization.png",
+      "bytes": 135208,
+      "sha256": "e84830f7d51d2df78f5380225b1d5788b5f744c129175a8a043b15df07cc4a72"
+    },
+    {
+      "src": "report/figures/fig15_monitor_display.png",
+      "dst": "d_运行结果/figures/fig15_monitor_display.png",
+      "bytes": 196097,
+      "sha256": "c84b22bcfd587c9416c7461e6631e586725fa59d12667381f9ed5ee04600e8d7"
+    },
+    {
+      "src": "report/figures/fig16_architecture.png",
+      "dst": "d_运行结果/figures/fig16_architecture.png",
+      "bytes": 239031,
+      "sha256": "4f5b00fb68df1e90153bd5e4589a8c76e2ad786bf2dc0dab12e718ca1be9bd8b"
+    }
+  ]
+}

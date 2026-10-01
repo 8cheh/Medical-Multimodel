@@ -1,0 +1,89 @@
+=== stopping old build/train ===
+=== data on disk ===
+33296
+2.5G	/root/autodl-tmp/numeric
+1.7G	/root/autodl-tmp/ppg
+############ BUILD ############
+Fri Sep 25 21:36:08 CST 2026
+cases to process: 3724 workers=14
+  500/3724 kept=464 {'low_map_coverage': 36}
+  1000/3724 kept=933 {'low_map_coverage': 67}
+  1500/3724 kept=1398 {'low_map_coverage': 102}
+  2000/3724 kept=1872 {'low_map_coverage': 128}
+  2500/3724 kept=2348 {'low_map_coverage': 152}
+  3000/3724 kept=2824 {'low_map_coverage': 176}
+  3500/3724 kept=3284 {'low_map_coverage': 216}
+windows=1553854 cases=3495 cols=70
+positive_rate=0.1352 majority_baseline_acc=0.8648
+per_case_windows_mean=444.6
+dropped={'low_map_coverage': 229}
+wrote /root/autodl-tmp/processed/windows.parquet (160.6 MB)
+
+############ TRAIN ############
+Fri Sep 25 21:36:55 CST 2026
+rows=1553854 cases=3495 features=67
+overall positive_rate=0.1352
+cases: fit=2831 val=314 test=350
+[250]	valid_0's auc: 0.958879
+best_iteration=297
+val-tuned threshold=0.4905 (val acc=0.9424)
+
+=== TEST (threshold 0.50) ===
+  threshold            0.5
+  accuracy             0.944039240231456
+  balanced_accuracy    0.8151638405722383
+  auroc                0.9536570310093178
+  auprc                0.8428769899850795
+  sensitivity          0.6434053003172004
+  specificity          0.9869223808272761
+  precision            0.8752783964365256
+  tp                   12576
+  fp                   1792
+  tn                   135236
+  fn                   6970
+  n                    156574
+  positive_rate        0.1248355410221365
+
+=== TEST (val-tuned threshold 0.4905) ===
+  threshold            0.4905174648797089
+  accuracy             0.9440775607699874
+  balanced_accuracy    0.8169402772832071
+  auroc                0.9536570310093178
+  auprc                0.8428769899850795
+  sensitivity          0.6474982093522972
+  specificity          0.9863823452141168
+  precision            0.8715053022999587
+  tp                   12656
+  fp                   1866
+  tn                   135162
+  fn                   6890
+  n                    156574
+  positive_rate        0.1248355410221365
+
+  majority_baseline_acc 0.8752
+
+=== top features (gain) ===
+  map_last60                2740247.0
+  map_gap                    870416.9
+  map_last                   325862.2
+  map_mean60                 311375.8
+  map_min                    217695.4
+  map_below65_frac           161394.7
+  map_std                     64418.4
+  t_min                       56784.0
+  dbp_last                    56430.6
+  dbp_mean60                  38239.5
+  sbp_std                     37866.9
+  dbp_last60                  27973.7
+  hr_std                      24143.8
+  dbp_std                     22374.4
+  hr_mean                     21885.7
+  hr_min                      21235.4
+  sbp_mean                    20574.8
+  hr_max                      17918.1
+  etco2_std                   16399.0
+  etco2_min                   15924.6
+
+wrote /root/autodl-tmp/models/v1/report.json
+Fri Sep 25 21:37:26 CST 2026
+############ DONE ############

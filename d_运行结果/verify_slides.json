@@ -1,0 +1,15 @@
+{
+  "pptx": "report/ppt/VitalDB_multimodal_monitoring.pptx",
+  "pdf": "report/ppt/VitalDB_multimodal_monitoring.pdf",
+  "pages": 20,
+  "bytes": 761658,
+  "generator_strings": {
+    "checked": 4,
+    "missing": []
+  },
+  "slide_blocks": 20,
+  "text_chars": 11584,
+  "placeholders": [],
+  "rendered_to": "D:\\vitaldb_local\\slides",
+  "passed": true
+}

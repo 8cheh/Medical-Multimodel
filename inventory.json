@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-10-01T08:02:11+00:00",
+  "repo": {
+    "python_files": 49,
+    "python_lines": 10226,
+    "results_artifacts": 57,
+    "report_figures": 16
+  },
+  "channels": {
+    "indexed": 196,
+    "local": 51,
+    "devices": 11,
+    "device_names": [
+      "BIS",
+      "CardioQ",
+      "EV1000",
+      "FMS",
+      "Invos",
+      "Orchestra",
+      "Primus",
+      "SNUADC",
+      "Solar8000",
+      "Vigilance",
+      "Vigileo"
+    ],
+    "function_groups": 8,
+    "local_names": [
+      "BIS/BIS",
+      "BIS/EMG",
+      "BIS/SEF",
+      "BIS/SQI",
+      "BIS/SR",
+      "BIS/TOTPOW",
+      "Orchestra/NEPI_RATE",
+      "Orchestra/NEPI_VOL",
+      "Orchestra/PHEN_RATE",
+      "Orchestra/PHEN_VOL",
+      "Orchestra/PPF20_CE",
+      "Orchestra/PPF20_CP",
+      "Orchestra/PPF20_CT",
+      "Orchestra/PPF20_RATE",
+      "Orchestra/PPF20_VOL",
+      "Orchestra/RFTN20_CE",
+      "Orchestra/RFTN20_CP",
+      "Orchestra/RFTN20_CT",
+      "Orchestra/RFTN20_RATE",
+      "Orchestra/RFTN20_VOL",
+      "Orchestra/RFTN50_CE",
+      "Orchestra/RFTN50_CP",
+      "Orchestra/RFTN50_CT",
+      "Orchestra/RFTN50_RATE",
+      "Orchestra/RFTN50_VOL",
+      "Orchestra/ROC_RATE",
+      "Orchestra/ROC_VOL",
+      "Primus/AWP",
+      "Primus/CO2",
+      "Primus/COMPLIANCE",
+      "Primus/ETCO2",
+      "Primus/FEO2",
+      "Primus/FIO2",
+      "Primus/INCO2",
+      "Primus/MAC",
+      "Primus/MV",
+      "Primus/PEEP_MBAR",
+      "Primus/PIP_MBAR",
+      "Primus/PPLAT_MBAR",
+      "Primus/RR_CO2",
+      "Primus/TV",
+      "SNUADC/ART",
+      "SNUADC/PLETH",
+      "Solar8000/ART_DBP",
+      "Solar8000/ART_MBP",
+      "Solar8000/ART_SBP",
+      "Solar8000/BT",
+      "Solar8000/ETCO2",
+      "Solar8000/HR",
+      "Solar8000/NIBP_MBP",
+      "Solar8000/PLETH_SPO2"
+    ]
+  },
+  "local_copy_root": "D:\\vitaldb_local",
+  "local_data": {
+    "numeric_csv": {
+      "files": 95402,
+      "bytes": 37125905990,
+      "gb": 37.13
+    },
+    "abp_npy": {
+      "files": 2500,
+      "bytes": 67591456116,
+      "gb": 67.59
+    },
+    "abp_features": {
+      "files": 1,
+      "bytes": 320437629,
+      "gb": 0.32
+    },
+    "ppg_features": {
+      "files": 1,
+      "bytes": 330527589,
+      "gb": 0.33
+    },
+    "windows_parquet": {
+      "files": 1,
+      "bytes": 168151382,
+      "gb": 0.17
+    }
+  },
+  "download": {
+    "channels_requested": 41,
+    "files_on_disk": 66375,
+    "bytes_on_disk": 34766356461,
+    "gb_on_disk": 32.38,
+    "downloader_ok": 66375,
+    "downloader_fail": 1,
+    "downloader_mb": 33155.8
+  },
+  "report_number_check": {
+    "checked": 239,
+    "missing": 0
+  }
+}

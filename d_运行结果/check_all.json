@@ -1,0 +1,131 @@
+{
+  "checks": [
+    {
+      "name": "numbers",
+      "status": "pass",
+      "seconds": 0.2,
+      "returncode": 0,
+      "tail": "OK every checked report number matches results/p0_report*.json, results/p0_significance.json, report/MIDTERM.md and the delivery README",
+      "proves": "every number in REPORT/SUMMARY/MIDTERM/delivery README is re-derived from results/"
+    },
+    {
+      "name": "delivery",
+      "status": "fail",
+      "seconds": 21.2,
+      "returncode": 1,
+      "tail": "FAIL 1 problem(s) in 算法实现/",
+      "proves": "evaluation pipeline, waveform extractors, label definition, merge modes"
+    },
+    {
+      "name": "final_audit",
+      "status": "pass",
+      "seconds": 0.9,
+      "returncode": 0,
+      "tail": "27/27 checks passed",
+      "proves": "repository-wide audit of the objective's deliverables"
+    },
+    {
+      "name": "p0_eval",
+      "status": "pass",
+      "seconds": 2.6,
+      "returncode": 0,
+      "tail": "OK p0_eval self-check",
+      "proves": "self-check: the non-trivial evaluation logic, no dataset needed"
+    },
+    {
+      "name": "abp_features",
+      "status": "pass",
+      "seconds": 2.1,
+      "returncode": 0,
+      "tail": "ABP extractor self-check passed",
+      "proves": "self-check: the arterial-waveform extractor on synthetic input"
+    },
+    {
+      "name": "extra_merge",
+      "status": "pass",
+      "seconds": 2.6,
+      "returncode": 0,
+      "tail": "all merge-mode checks passed",
+      "proves": "self-check: both --extra-features merge modes on tiny frames"
+    },
+    {
+      "name": "alarm_policy",
+      "status": "pass",
+      "seconds": 0.2,
+      "returncode": 0,
+      "tail": "alarm policy self-check passed",
+      "proves": "self-check: the alarm layer (persistence + hysteresis)"
+    },
+    {
+      "name": "build_refactor",
+      "status": "pass",
+      "seconds": 3.1,
+      "returncode": 0,
+      "tail": "OK cases=5 labels_verified=240 dropped=1",
+      "proves": "the extracted episode definition still reproduces the labels"
+    },
+    {
+      "name": "stream",
+      "status": "pass",
+      "seconds": 5.8,
+      "returncode": 0,
+      "tail": "streaming stats: 890 decisions, median latency 2.21 ms, p95 3.65 ms, buffer 769 samples",
+      "proves": "streamed features and scores equal the offline run, case by case"
+    },
+    {
+      "name": "pdf_report",
+      "status": "pass",
+      "seconds": 0.5,
+      "returncode": 0,
+      "tail": "PDF verification PASSED",
+      "proves": "the report PDF really carries its pages, figures, numbers and CJK glyphs"
+    },
+    {
+      "name": "pdf_midterm",
+      "status": "pass",
+      "seconds": 0.3,
+      "returncode": 0,
+      "tail": "PDF verification PASSED",
+      "proves": "the mid-term PDF really carries its pages, figures and glyphs"
+    },
+    {
+      "name": "slides",
+      "status": "pass",
+      "seconds": 9.5,
+      "returncode": 0,
+      "tail": "OK the PDF matches the deck and carries no placeholder text",
+      "proves": "the deck PDF matches the current .pptx and the deck has no placeholder text"
+    },
+    {
+      "name": "latex",
+      "status": "pass",
+      "seconds": 11.9,
+      "returncode": 0,
+      "tail": "OK the LaTeX report compiles, carries its numbers, and has no leftover template fields",
+      "proves": "the LaTeX mid-term report compiles and carries its numbers"
+    },
+    {
+      "name": "freshness",
+      "status": "fail",
+      "seconds": 0.2,
+      "returncode": 1,
+      "tail": "FAIL 2 rendered artifact(s) are older than their source",
+      "proves": "no rendered PDF or deck is older than the file it was rendered from"
+    },
+    {
+      "name": "citations",
+      "status": "pass",
+      "seconds": 0.1,
+      "returncode": 0,
+      "tail": "citation check PASSED",
+      "proves": "every citation resolves and no reference is orphaned"
+    }
+  ],
+  "passed": 13,
+  "total": 15,
+  "failed": [
+    "delivery",
+    "freshness"
+  ],
+  "skipped": []
+}

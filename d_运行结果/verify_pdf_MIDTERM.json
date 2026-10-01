@@ -1,0 +1,24 @@
+{
+  "pdf": "report/MIDTERM.pdf",
+  "pages": 15,
+  "bytes": 2337130,
+  "images": 12,
+  "text_chars": 8681,
+  "cjk_glyphs": 4784,
+  "replacement_chars": 0,
+  "key_numbers": {
+    "checked": 0,
+    "missing": []
+  },
+  "key_phrases": {
+    "checked": 0,
+    "missing": []
+  },
+  "links": {
+    "internal": 0,
+    "external": 0,
+    "broken": 0
+  },
+  "failures": [],
+  "passed": true
+}

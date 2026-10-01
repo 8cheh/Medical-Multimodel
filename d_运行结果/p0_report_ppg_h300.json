@@ -1,0 +1,741 @@
+{
+  "mode": "dataset",
+  "root": "D:\\vitaldb_local",
+  "windows": "D:\\vitaldb_local\\processed\\windows.parquet",
+  "tracks_dir": "D:\\vitaldb_local\\numeric",
+  "seed": 42,
+  "reps": 500,
+  "horizon": 300,
+  "sens_target": 0.8,
+  "groups": {
+    "numeric": {
+      "cases": {
+        "fit": 2659,
+        "val": 295,
+        "test": 328
+      },
+      "test_windows": 144594,
+      "test_episodes": 1177,
+      "test_positive_rate": 0.10526716184627301,
+      "variants": {
+        "main": {
+          "threshold": 0.16433885496665565,
+          "kind": "model",
+          "n_features": 67,
+          "best_iteration": 258,
+          "val_threshold_at_sens": 0.16433885496665565,
+          "val_threshold_acc_opt": 0.46329031373180896,
+          "top_gains": [
+            {
+              "feature": "map_last60",
+              "gain": 2001826.9724912643
+            },
+            {
+              "feature": "map_gap",
+              "gain": 674848.1292743683
+            },
+            {
+              "feature": "map_last",
+              "gain": 318350.44352531433
+            },
+            {
+              "feature": "map_mean60",
+              "gain": 214783.60818195343
+            },
+            {
+              "feature": "map_min",
+              "gain": 115030.7003250122
+            },
+            {
+              "feature": "map_below65_frac",
+              "gain": 112078.11895513535
+            },
+            {
+              "feature": "dbp_last",
+              "gain": 63003.095297813416
+            },
+            {
+              "feature": "t_min",
+              "gain": 60656.618715286255
+            },
+            {
+              "feature": "sbp_std",
+              "gain": 46261.20034313202
+            },
+            {
+              "feature": "map_std",
+              "gain": 41505.36441898346
+            }
+          ],
+          "window": {
+            "threshold": 0.16433885496665565,
+            "accuracy": 0.91450544282612,
+            "balanced_accuracy": 0.8707478211637669,
+            "auroc": 0.9514581108735477,
+            "auprc": 0.8154274058414879,
+            "sensitivity": 0.8153209381775179,
+            "specificity": 0.9261747041500158,
+            "precision": 0.5650926642684759,
+            "tp": 12410,
+            "fp": 9551,
+            "tn": 119822,
+            "fn": 2811,
+            "n": 144594,
+            "positive_rate": 0.10526716184627301,
+            "majority_baseline_acc": 0.894732838153727
+          },
+          "event": {
+            "n_episodes": 1177,
+            "n_scoreable": 1168,
+            "detected": 1168,
+            "detection_rate": 1.0,
+            "lead_median_s": 273.0,
+            "lead_mean_s": 224.00085616438355,
+            "lead_p25_s": 164.0,
+            "alarm_events": 3541,
+            "alarm_rate_per_h": 2.938711149840243,
+            "false_alarm_rate_per_h": 2.181833271090087,
+            "hours": 1204.9499999999998
+          },
+          "event_ci": {
+            "detection_rate": {
+              "mean": 1.0,
+              "lo": 1.0,
+              "hi": 1.0,
+              "p_le0": 0.0
+            },
+            "lead_median_s": {
+              "mean": 272.345,
+              "lo": 268.475,
+              "hi": 274.2625,
+              "p_le0": 0.0
+            },
+            "alarm_rate_per_h": {
+              "mean": 2.937513074647256,
+              "lo": 2.6626656188931945,
+              "hi": 3.215587979401078,
+              "p_le0": 0.0
+            },
+            "false_alarm_rate_per_h": {
+              "mean": 2.1837775331088976,
+              "lo": 1.972707595387882,
+              "hi": 2.420550380163012,
+              "p_le0": 0.0
+            }
+          }
+        },
+        "map_only": {
+          "threshold": 0.15857983240285098,
+          "kind": "model",
+          "n_features": 11,
+          "best_iteration": 298,
+          "val_threshold_at_sens": 0.15857983240285098,
+          "val_threshold_acc_opt": 0.49328476074794814,
+          "top_gains": [
+            {
+              "feature": "map_last60",
+              "gain": 2283964.383742571
+            },
+            {
+              "feature": "map_last",
+              "gain": 765941.6231935024
+            },
+            {
+              "feature": "map_mean60",
+              "gain": 241350.00766515732
+            },
+            {
+              "feature": "map_min",
+              "gain": 184231.77169823647
+            },
+            {
+              "feature": "map_below65_frac",
+              "gain": 135452.17501962185
+            },
+            {
+              "feature": "map_std",
+              "gain": 86657.87683343887
+            },
+            {
+              "feature": "map_max",
+              "gain": 56653.15369963646
+            },
+            {
+              "feature": "map_mean",
+              "gain": 43317.71998333931
+            },
+            {
+              "feature": "map_delta",
+              "gain": 34216.06253838539
+            },
+            {
+              "feature": "map_gap",
+              "gain": 22810.08531808853
+            }
+          ],
+          "window": {
+            "threshold": 0.15857983240285098,
+            "accuracy": 0.9145815179053073,
+            "balanced_accuracy": 0.8667904647807413,
+            "auroc": 0.946486007757296,
+            "auprc": 0.8073821663328362,
+            "sensitivity": 0.8062545167860193,
+            "specificity": 0.9273264127754632,
+            "precision": 0.5662083602473009,
+            "tp": 12272,
+            "fp": 9402,
+            "tn": 119971,
+            "fn": 2949,
+            "n": 144594,
+            "positive_rate": 0.10526716184627301,
+            "majority_baseline_acc": 0.894732838153727
+          },
+          "event": {
+            "n_episodes": 1177,
+            "n_scoreable": 1168,
+            "detected": 1168,
+            "detection_rate": 1.0,
+            "lead_median_s": 271.0,
+            "lead_mean_s": 219.37756849315068,
+            "lead_p25_s": 154.75,
+            "alarm_events": 3715,
+            "alarm_rate_per_h": 3.0831154819702067,
+            "false_alarm_rate_per_h": 2.3063197643055733,
+            "hours": 1204.9499999999998
+          },
+          "event_ci": {
+            "detection_rate": {
+              "mean": 1.0,
+              "lo": 1.0,
+              "hi": 1.0,
+              "p_le0": 0.0
+            },
+            "lead_median_s": {
+              "mean": 269.965,
+              "lo": 257.0,
+              "hi": 273.0,
+              "p_le0": 0.0
+            },
+            "alarm_rate_per_h": {
+              "mean": 3.0820121671336174,
+              "lo": 2.8004550786329343,
+              "hi": 3.3505326135545856,
+              "p_le0": 0.0
+            },
+            "false_alarm_rate_per_h": {
+              "mean": 2.308661508767996,
+              "lo": 2.1007175874411876,
+              "hi": 2.5235171663931286,
+              "p_le0": 0.0
+            }
+          }
+        },
+        "rule_map65": {
+          "threshold": 0.0,
+          "kind": "rule",
+          "feature": "map_last60",
+          "cut": 65.0,
+          "window": {
+            "threshold": 0.0,
+            "accuracy": 0.9418855554172372,
+            "balanced_accuracy": 0.8030947334380705,
+            "auroc": 0.8966335873084902,
+            "auprc": 0.6528460680485964,
+            "sensitivity": 0.6272912423625254,
+            "specificity": 0.9788982245136156,
+            "precision": 0.7776510832383124,
+            "tp": 9548,
+            "fp": 2730,
+            "tn": 126643,
+            "fn": 5673,
+            "n": 144594,
+            "positive_rate": 0.10526716184627301,
+            "majority_baseline_acc": 0.894732838153727
+          },
+          "event": {
+            "n_episodes": 1177,
+            "n_scoreable": 1168,
+            "detected": 1168,
+            "detection_rate": 1.0,
+            "lead_median_s": 152.0,
+            "lead_mean_s": 160.76455479452054,
+            "lead_p25_s": 54.0,
+            "alarm_events": 2754,
+            "alarm_rate_per_h": 2.2855720154363257,
+            "false_alarm_rate_per_h": 1.2116685339640652,
+            "hours": 1204.9499999999998
+          },
+          "event_ci": {
+            "detection_rate": {
+              "mean": 1.0,
+              "lo": 1.0,
+              "hi": 1.0,
+              "p_le0": 0.0
+            },
+            "lead_median_s": {
+              "mean": 152.884,
+              "lo": 123.5,
+              "hi": 177.0,
+              "p_le0": 0.0
+            },
+            "alarm_rate_per_h": {
+              "mean": 2.280006025072985,
+              "lo": 2.0516497959246816,
+              "hi": 2.4917576490646303,
+              "p_le0": 0.0
+            },
+            "false_alarm_rate_per_h": {
+              "mean": 1.2106667667753168,
+              "lo": 1.0904567920035593,
+              "hi": 1.3437107705840488,
+              "p_le0": 0.0
+            }
+          }
+        },
+        "rule_map65_mean": {
+          "threshold": 0.0,
+          "kind": "rule",
+          "feature": "map_mean60",
+          "cut": 65.0,
+          "window": {
+            "threshold": 0.0,
+            "accuracy": 0.9377290897270979,
+            "balanced_accuracy": 0.7712077422178747,
+            "auroc": 0.8833370900539816,
+            "auprc": 0.6505039752315336,
+            "sensitivity": 0.5602785625123186,
+            "specificity": 0.9821369219234307,
+            "precision": 0.7867884491189224,
+            "tp": 8528,
+            "fp": 2311,
+            "tn": 127062,
+            "fn": 6693,
+            "n": 144594,
+            "positive_rate": 0.10526716184627301,
+            "majority_baseline_acc": 0.894732838153727
+          },
+          "event": {
+            "n_episodes": 1177,
+            "n_scoreable": 1168,
+            "detected": 1113,
+            "detection_rate": 0.9529109589041096,
+            "lead_median_s": 105.0,
+            "lead_mean_s": 135.67385444743934,
+            "lead_p25_s": 26.0,
+            "alarm_events": 1764,
+            "alarm_rate_per_h": 1.463961160214117,
+            "false_alarm_rate_per_h": 0.646499854765758,
+            "hours": 1204.9499999999998
+          },
+          "event_ci": {
+            "detection_rate": {
+              "mean": 0.9530874529705763,
+              "lo": 0.939295208775159,
+              "hi": 0.9654878705083624,
+              "p_le0": 0.0
+            },
+            "lead_median_s": {
+              "mean": 103.835,
+              "lo": 76.2375,
+              "hi": 131.0,
+              "p_le0": 0.0
+            },
+            "alarm_rate_per_h": {
+              "mean": 1.4575657697377142,
+              "lo": 1.321546883987532,
+              "hi": 1.5999025326115857,
+              "p_le0": 0.0
+            },
+            "false_alarm_rate_per_h": {
+              "mean": 0.6432027937367852,
+              "lo": 0.5776612326661781,
+              "hi": 0.7005117950195789,
+              "p_le0": 0.0
+            }
+          }
+        },
+        "rule_map65_min": {
+          "threshold": 0.0,
+          "kind": "rule",
+          "feature": "map_min",
+          "cut": 65.0,
+          "window": {
+            "threshold": 0.0,
+            "accuracy": 0.8071220105951837,
+            "balanced_accuracy": 0.8183621029954558,
+            "auroc": 0.8464697400238487,
+            "auprc": 0.31314975129142947,
+            "sensitivity": 0.8325996977859537,
+            "specificity": 0.8041245082049577,
+            "precision": 0.3333771768295891,
+            "tp": 12673,
+            "fp": 25341,
+            "tn": 104032,
+            "fn": 2548,
+            "n": 144594,
+            "positive_rate": 0.10526716184627301,
+            "majority_baseline_acc": 0.894732838153727
+          },
+          "event": {
+            "n_episodes": 1177,
+            "n_scoreable": 1168,
+            "detected": 1168,
+            "detection_rate": 1.0,
+            "lead_median_s": 275.0,
+            "lead_mean_s": 218.4529109589041,
+            "lead_p25_s": 128.0,
+            "alarm_events": 1779,
+            "alarm_rate_per_h": 1.4764098095356657,
+            "false_alarm_rate_per_h": 1.0564753724220923,
+            "hours": 1204.9499999999998
+          },
+          "event_ci": {
+            "detection_rate": {
+              "mean": 1.0,
+              "lo": 1.0,
+              "hi": 1.0,
+              "p_le0": 0.0
+            },
+            "lead_median_s": {
+              "mean": 275.67,
+              "lo": 274.0,
+              "hi": 278.0,
+              "p_le0": 0.0
+            },
+            "alarm_rate_per_h": {
+              "mean": 1.4765424671754646,
+              "lo": 1.3805517436504855,
+              "hi": 1.5614242935957294,
+              "p_le0": 0.0
+            },
+            "false_alarm_rate_per_h": {
+              "mean": 1.058447414488609,
+              "lo": 0.9910743323039609,
+              "hi": 1.1353953007601194,
+              "p_le0": 0.0
+            }
+          }
+        },
+        "main_ppg": {
+          "threshold": 0.16782740166420881,
+          "kind": "model",
+          "n_features": 122,
+          "best_iteration": 217,
+          "val_threshold_at_sens": 0.16782740166420881,
+          "val_threshold_acc_opt": 0.4468448493607313,
+          "top_gains": [
+            {
+              "feature": "map_last60",
+              "gain": 2495754.2538204193
+            },
+            {
+              "feature": "map_last",
+              "gain": 472767.815202713
+            },
+            {
+              "feature": "map_mean60",
+              "gain": 194984.98134613037
+            },
+            {
+              "feature": "map_min",
+              "gain": 103493.7358789444
+            },
+            {
+              "feature": "map_below65_frac",
+              "gain": 102286.33545780182
+            },
+            {
+              "feature": "map_gap",
+              "gain": 61315.78394699097
+            },
+            {
+              "feature": "dbp_last",
+              "gain": 60548.84916496277
+            },
+            {
+              "feature": "t_min",
+              "gain": 53086.499510765076
+            },
+            {
+              "feature": "sbp_std",
+              "gain": 40870.21752166748
+            },
+            {
+              "feature": "map_std",
+              "gain": 40002.20922279358
+            }
+          ],
+          "window": {
+            "threshold": 0.16782740166420881,
+            "accuracy": 0.9162136741496881,
+            "balanced_accuracy": 0.8695575679400387,
+            "auroc": 0.9506432212962539,
+            "auprc": 0.8143937920310722,
+            "sensitivity": 0.8104592339530912,
+            "specificity": 0.9286559019269863,
+            "precision": 0.5720114995826764,
+            "tp": 12336,
+            "fp": 9230,
+            "tn": 120143,
+            "fn": 2885,
+            "n": 144594,
+            "positive_rate": 0.10526716184627301,
+            "majority_baseline_acc": 0.894732838153727
+          },
+          "event": {
+            "n_episodes": 1177,
+            "n_scoreable": 1168,
+            "detected": 1168,
+            "detection_rate": 1.0,
+            "lead_median_s": 272.0,
+            "lead_mean_s": 222.6652397260274,
+            "lead_p25_s": 163.75,
+            "alarm_events": 3543,
+            "alarm_rate_per_h": 2.9403709697497824,
+            "false_alarm_rate_per_h": 2.1544462425826802,
+            "hours": 1204.9499999999998
+          },
+          "event_ci": {
+            "detection_rate": {
+              "mean": 1.0,
+              "lo": 1.0,
+              "hi": 1.0,
+              "p_le0": 0.0
+            },
+            "lead_median_s": {
+              "mean": 271.39,
+              "lo": 265.5,
+              "hi": 274.0,
+              "p_le0": 0.0
+            },
+            "alarm_rate_per_h": {
+              "mean": 2.9388925880622536,
+              "lo": 2.668545425374739,
+              "hi": 3.228356630018093,
+              "p_le0": 0.0
+            },
+            "false_alarm_rate_per_h": {
+              "mean": 2.1562894484321733,
+              "lo": 1.9511139306031138,
+              "hi": 2.3658616941161994,
+              "p_le0": 0.0
+            }
+          }
+        }
+      },
+      "deltas": {
+        "main-map_only": {
+          "boot": {
+            "accuracy": {
+              "mean": -1.3767140934467515e-05,
+              "lo": -0.0019731511049002393,
+              "hi": 0.001833024756503445,
+              "p_le0": 0.508
+            },
+            "auprc": {
+              "mean": 0.00807817872546507,
+              "lo": 0.004840966019857826,
+              "hi": 0.01139354315674454,
+              "p_le0": 0.0
+            },
+            "auroc": {
+              "mean": 0.005003752957234218,
+              "lo": 0.0035225691024245082,
+              "hi": 0.0065264175824221475,
+              "p_le0": 0.0
+            },
+            "balanced_accuracy": {
+              "mean": 0.003989270829902952,
+              "lo": 0.000505209384656999,
+              "hi": 0.007057778029699193,
+              "p_le0": 0.012
+            },
+            "precision": {
+              "mean": -0.0008658133200839852,
+              "lo": -0.008426439041879893,
+              "hi": 0.006159958484763598,
+              "p_le0": 0.582
+            },
+            "sensitivity": {
+              "mean": 0.009040800684633192,
+              "lo": 0.0015041911802494313,
+              "hi": 0.015733205703606267,
+              "p_le0": 0.004
+            },
+            "specificity": {
+              "mean": -0.0010622590248272946,
+              "lo": -0.003338075725517006,
+              "hi": 0.0011774126964157635,
+              "p_le0": 0.824
+            }
+          },
+          "mcnemar": {
+            "a_right_b_wrong": 2450,
+            "a_wrong_b_right": 2461,
+            "p": 0.8865313108120315
+          }
+        },
+        "main-rule_map65": {
+          "boot": {
+            "accuracy": {
+              "mean": -0.027350474937191727,
+              "lo": -0.03131097745725008,
+              "hi": -0.02351540833490571,
+              "p_le0": 1.0
+            },
+            "auprc": {
+              "mean": 0.16297702470653117,
+              "lo": 0.14628589893619323,
+              "hi": 0.17922290930881732,
+              "p_le0": 0.0
+            },
+            "auroc": {
+              "mean": 0.05471846206651034,
+              "lo": 0.047160186825022626,
+              "hi": 0.06301744820075651,
+              "p_le0": 0.0
+            },
+            "balanced_accuracy": {
+              "mean": 0.06794797403256427,
+              "lo": 0.06181655741621451,
+              "hi": 0.07449142536657158,
+              "p_le0": 0.0
+            },
+            "precision": {
+              "mean": -0.2126713994284249,
+              "lo": -0.22491984571690374,
+              "hi": -0.19978124435885514,
+              "p_le0": 1.0
+            },
+            "sensitivity": {
+              "mean": 0.18844597010042505,
+              "lo": 0.1769184362934363,
+              "hi": 0.2002837573786816,
+              "p_le0": 0.0
+            },
+            "specificity": {
+              "mean": -0.05255002203529651,
+              "lo": -0.05860947494646752,
+              "hi": -0.046705154703262176,
+              "p_le0": 1.0
+            }
+          },
+          "mcnemar": {
+            "a_right_b_wrong": 3265,
+            "a_wrong_b_right": 7224,
+            "p": 0.0
+          }
+        },
+        "map_only-rule_map65": {
+          "boot": {
+            "accuracy": {
+              "mean": -0.027336707796257256,
+              "lo": -0.03143642277427931,
+              "hi": -0.023620103768569108,
+              "p_le0": 1.0
+            },
+            "auprc": {
+              "mean": 0.15489884598106607,
+              "lo": 0.13900383376936026,
+              "hi": 0.17046212888960813,
+              "p_le0": 0.0
+            },
+            "auroc": {
+              "mean": 0.04971470910927612,
+              "lo": 0.04284613847792386,
+              "hi": 0.05759493853683895,
+              "p_le0": 0.0
+            },
+            "balanced_accuracy": {
+              "mean": 0.06395870320266131,
+              "lo": 0.05847993125144048,
+              "hi": 0.07024255348166591,
+              "p_le0": 0.0
+            },
+            "precision": {
+              "mean": -0.21180558610834088,
+              "lo": -0.2235919615426037,
+              "hi": -0.19952571924707488,
+              "p_le0": 1.0
+            },
+            "sensitivity": {
+              "mean": 0.17940516941579185,
+              "lo": 0.16781566081556062,
+              "hi": 0.1916223601758329,
+              "p_le0": 0.0
+            },
+            "specificity": {
+              "mean": -0.051487763010469215,
+              "lo": -0.05737264031360234,
+              "hi": -0.045535789984768545,
+              "p_le0": 1.0
+            }
+          },
+          "mcnemar": {
+            "a_right_b_wrong": 3068,
+            "a_wrong_b_right": 7016,
+            "p": 0.0
+          }
+        },
+        "main_ppg-main": {
+          "boot": {
+            "accuracy": {
+              "mean": 0.00171115714464569,
+              "lo": -9.394656734392206e-05,
+              "hi": 0.0036520269052382477,
+              "p_le0": 0.036
+            },
+            "auprc": {
+              "mean": -0.0010239547723417636,
+              "lo": -0.002739375539060759,
+              "hi": 0.0006846899304871856,
+              "p_le0": 0.898
+            },
+            "auroc": {
+              "mean": -0.0007907216852428827,
+              "lo": -0.001614263747375308,
+              "hi": -0.0001147323795071793,
+              "p_le0": 0.986
+            },
+            "balanced_accuracy": {
+              "mean": -0.0010806745373268128,
+              "lo": -0.0031274615263887167,
+              "hi": 0.0007138097644723312,
+              "p_le0": 0.842
+            },
+            "precision": {
+              "mean": 0.006871167952632959,
+              "lo": -3.51694801652256e-05,
+              "hi": 0.014009951202067703,
+              "p_le0": 0.026
+            },
+            "sensitivity": {
+              "mean": -0.004616936736559769,
+              "lo": -0.009471547272322054,
+              "hi": -0.0004431005699327362,
+              "p_le0": 0.988
+            },
+            "specificity": {
+              "mean": 0.002455587661906151,
+              "lo": 8.062732214347564e-05,
+              "hi": 0.005067015784016687,
+              "p_le0": 0.02
+            }
+          },
+          "mcnemar": {
+            "a_right_b_wrong": 1536,
+            "a_wrong_b_right": 1289,
+            "p": 3.6365349533950272e-06
+          }
+        }
+      }
+    }
+  },
+  "notes": [
+    "Episode onset is the first second whose trailing 60 s was >=90% below MAP 65 (build_dataset.hypotension_flags). So at the onset the patient has already been hypotensive for about a minute by construction, which gives a MAP-keyed alarm such as rule_map65 a structural head start.",
+    "Event metrics use each variant's validation-tuned threshold for sensitivity >= 0.80, except the rule_map65* variants, whose as-designed threshold is 0 (MAP <= 65).",
+    "Alarms are rising edges on the 30 s decision grid, so a sustained high score counts once.",
+    "Mode `significance` resamples windows and is therefore anti-conservative; the case-level intervals here are the ones to quote.",
+    "The label looks 300 s ahead, and the same span is the actionable alarm window of an episode (see the `pre` argument of event_metrics). Event metrics are therefore only comparable between runs that share --horizon."
+  ]
+}

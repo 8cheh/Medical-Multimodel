@@ -1,0 +1,13 @@
+{
+  "track": "SNUADC/PLETH (PPG waveform, ~500 Hz)",
+  "fs_hz": 500,
+  "expected_cases": 6157,
+  "downloaded_cases": 6157,
+  "coverage_pct": 100.0,
+  "missing_count": 0,
+  "missing_sample": [],
+  "total_bytes": 134840025296,
+  "total_gb": 125.58,
+  "sidecar_missing": 0,
+  "output_dir": "/root/autodl-tmp/ppg_npy"
+}

@@ -1,0 +1,49 @@
+{
+  "task": "intraoperative hypotension, MAP<65 for >=1min within next 5min",
+  "split": "caseid-disjoint 90%/10%",
+  "n_features": 67,
+  "cases": {
+    "fit": 2831,
+    "val": 314,
+    "test": 350
+  },
+  "rows": {
+    "fit": 1249319,
+    "val": 147961,
+    "test": 156574
+  },
+  "best_iteration": 297,
+  "test_at_0.5": {
+    "threshold": 0.5,
+    "accuracy": 0.944039240231456,
+    "balanced_accuracy": 0.8151638405722383,
+    "auroc": 0.9536570310093178,
+    "auprc": 0.8428769899850795,
+    "sensitivity": 0.6434053003172004,
+    "specificity": 0.9869223808272761,
+    "precision": 0.8752783964365256,
+    "tp": 12576,
+    "fp": 1792,
+    "tn": 135236,
+    "fn": 6970,
+    "n": 156574,
+    "positive_rate": 0.1248355410221365
+  },
+  "test_at_val_threshold": {
+    "threshold": 0.4905174648797089,
+    "accuracy": 0.9440775607699874,
+    "balanced_accuracy": 0.8169402772832071,
+    "auroc": 0.9536570310093178,
+    "auprc": 0.8428769899850795,
+    "sensitivity": 0.6474982093522972,
+    "specificity": 0.9863823452141168,
+    "precision": 0.8715053022999587,
+    "tp": 12656,
+    "fp": 1866,
+    "tn": 135162,
+    "fn": 6890,
+    "n": 156574,
+    "positive_rate": 0.1248355410221365
+  },
+  "test_majority_baseline_acc": 0.8751644589778635
+}
